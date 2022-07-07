@@ -1019,8 +1019,3 @@ def main():
     print("%d warnings printed; %d suppressed warnings" % (nr_warnings, nr_suppressed))
     if exit_code:
         sys.exit(1 if nr_warnings > 0 else 0)
-
-
-if __name__ == "__main__":
-    main()
-

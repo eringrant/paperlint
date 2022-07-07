@@ -1,0 +1,6 @@
+- id: paperlint
+  name: paperlint
+  description: Check for common mistakes in LaTeX source files of scientific papers.
+  entry: paperlint
+  language: python
+  files: \.tex$
